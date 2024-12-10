@@ -1,0 +1,68 @@
+box => div
+width and heigth
+color => text color
+background => background ka color change
+max-width and max-heigth
+units =>  px => are very less use , not good for responsive
+ % => jitna total hai untna hissa
+ % hmesa parent se value leta hai 
+ vw , vh => ye screen se value leta hai , and vh screen se value leta hai.
+
+ em => iska size font size pe depended rhtha hai agar font size change hua tho uska size v change ho jyega 
+  rem => ye depended rhtha hai root font size pr , agar root ka font size change hua to ye change hoga
+
+  max -width => set the maximam with of element , usse kam dene pr chalega pr usse jada nai
+  min - width => set the minimum width
+  same for heigth
+
+front family => there are mostly 2 type 1.sans serif 2. sarif , and there is option of text-decoration in which u can use 
+underline , overline etc etc
+
+font size => change the fond size and it is suggest to use vw insted for px to make it responsive
+
+line- heigth => use for gives spaces between lines
+text align => left , right , justify , centre
+
+padding => ye box ke andar latha hai , agar box ke andar change krna hua tho tho padding
+
+margin => box ke bahar lagtha hai margin , it means parent div me lagtha hai or box side ho jata hai 
+border => border : 3px solid red,
+border radius => square ko circle kr deta hai , edge se cut krta hai
+block element => row me akela aayega
+inline element => does not allow to change his width heigth
+inline block => allow to change his width heigth
+display => block , inline , inline block
+position absolute => kiski ko v hmolog absolute krte hai tho wo uper uth jata hai or useke baad usko khi 
+                        v position kr skte from top , bottom , right , left or har item ka lag alag layer pe uper utha hai 
+                        or ek uper utha hai tho dusra aage aa jata hai
+position relative => jiske andhar rkhana hai usko position relative krdo , uske bad wo box ke relative
+                    move krega na ki screen ke reletade move krega
+position fixed => wo element wi rhega
+
+css background => url () we can set image using background with background centre , background cover , contain
+linear gradient (give position here , color1 , color2)
+
+
+flex box => mainly tab kaam me aata jb aap element ka agal bagal chate ho or jada control chate ho tho
+flex box parent pe lagtha hai ,uske chalte children agal bagal me aa jata hai
+x axis => main axis , main axis pr kaam krne ke liye use hota justify content => space between, around , evenly
+ y axis => cross axis , agar ispe kaam krna hai tho align item se hoga , align item => ye heigth wise kamm krtha hai
+ 
+pseudo element => before , after ,first line , first letter , selection
+pseudo class => hover ,active , focus nth child()
+
+--------------------------------------------------------------------------------------------------------------------------
+css grid => using flex we can only work in 1D dimension to work on 2Ddimension we need grid
+grid divide in rows (x axis) and colomb (y axis)
+grid-template-columns: 20% 20% 20% 20%;
+   grid-template-rows: 20% 20% 20% 20%;
+justify item , alagin item
+mostly given to parent div
+justify content and alagin item in grid
+item => use when to work on one single box and place its content
+content => when to work on whole axis
+justify self => to control that item 
+
+grid - row :  1 / 3;
+grid - colomb : 1 / 4 ;
+

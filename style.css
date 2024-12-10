@@ -1,0 +1,52 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+}
+/* boiler plate code of css */
+
+/* #main {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color: lightblue;
+  justify-content:space-evenly;
+  /* align-i */
+  /* align-items: center;
+  flex-direction: column; */
+  /* flex divide the whole page in rows (x axis ) and colomb (y axis )
+   */
+/* } */ 
+
+/* #main{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  background-color: lightblue;
+  grid-template-columns: 100px 200px 100px;
+
+} */
+
+.elem{
+  /* height: 200px;
+  width: 200px; */
+  background-color: red;
+  border: 5px solid black;
+}
+
+#nav{
+  background-color: aquamarine;
+  display: grid;
+  grid-template-columns: 60% 10% 10% 10% 10%;
+  grid-template-rows: 70px;
+  align-items: center;
+  justify-items: center;
+  padding: 0px 20px;
+}
+#main{
+  justify-self: start;
+}
